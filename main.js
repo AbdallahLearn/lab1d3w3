@@ -144,13 +144,8 @@ characters = [
 
 console.log("output 1--------------------\n")
 
-let blueEyedCharacter = characters.find(character => character.eye_color === "blue");
-
-if (blueEyedCharacter) {
-      console.log(blueEyedCharacter.name);
-} else {
-      console.log("No character with blue eyes found.");
-}
+let blueEyes = characters.find(e => e.eye_color === "blue");
+console.log(blueEyes.name)
 
 
 console.log("\n")
